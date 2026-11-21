@@ -10,6 +10,7 @@ import {
   Download
 } from 'lucide-react';
 import { navigationLinks } from '../data/portfolioData';
+import { BrandLogo } from './BrandLogo';
 
 interface NavbarProps {
   onOpenCommandPalette: () => void;
@@ -60,19 +61,13 @@ export const Navbar: React.FC<NavbarProps> = ({
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Logo / Monogram */}
+          {/* Logo / Brand Mark */}
           <a
             href="#"
-            className="flex items-center space-x-2.5 group focus:outline-none"
+            className="flex items-center space-x-3 group focus:outline-none"
             aria-label="Vasu Rachhadiya Portfolio Home"
           >
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 via-indigo-500 to-purple-500 p-[1.5px] transition-transform duration-300 group-hover:scale-105">
-              <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
-                <span className="font-mono font-bold text-sm tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-300">
-                  VR
-                </span>
-              </div>
-            </div>
+            <BrandLogo className="w-10 h-10 transition-transform duration-300 group-hover:scale-105 drop-shadow-md" />
             <div className="flex flex-col">
               <span className="text-sm font-bold tracking-tight text-white group-hover:text-sky-400 transition-colors">
                 Vasu Rachhadiya

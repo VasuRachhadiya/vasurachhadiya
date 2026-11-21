@@ -9,8 +9,8 @@ import {
   Play,
   Cpu
 } from 'lucide-react';
-import { GithubIcon, LinkedinIcon } from '../components/icons/SocialIcons';
 import { contactInfo, bioData } from '../data/portfolioData';
+import { SocialLinks } from '../components/SocialLinks';
 
 interface HeroSectionProps {
   onOpenResume?: () => void;
@@ -129,40 +129,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEmail }) => {
                 <ArrowRight className="w-4 h-4 text-slate-950" />
               </a>
 
-              {/* Social icons */}
-              <div className="flex items-center gap-2.5 ml-1">
-                <a
-                  href={contactInfo.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-white transition-colors"
-                  aria-label="GitHub Profile"
-                  title="GitHub: github.com/VasuRachhadiya"
-                >
-                  <GithubIcon className="w-5 h-5" />
-                </a>
-
-                <a
-                  href={contactInfo.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-sky-400 transition-colors"
-                  aria-label="LinkedIn Profile"
-                  title="LinkedIn: Vasu Rachhadiya"
-                >
-                  <LinkedinIcon className="w-5 h-5" />
-                </a>
-
-                <button
-                  type="button"
-                  onClick={onOpenEmail}
-                  className="p-3 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-emerald-400 hover:border-emerald-500/40 transition-colors"
-                  aria-label="Email Vasu Rachhadiya"
-                  title="Email: vasurachhadiya@gmail.com (Click for options)"
-                >
-                  <Mail className="w-5 h-5" />
-                </button>
-              </div>
+              {/* Social links row */}
+              <SocialLinks onOpenEmail={onOpenEmail} size="md" className="ml-1" />
             </div>
 
             {/* Quick Micro Credentials Bar */}

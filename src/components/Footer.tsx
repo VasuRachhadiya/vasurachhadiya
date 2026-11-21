@@ -1,7 +1,8 @@
 import React from 'react';
 import { ArrowUp, Mail, Heart, Code2 } from 'lucide-react';
-import { GithubIcon, LinkedinIcon, InstagramIcon, FacebookIcon } from './icons/SocialIcons';
 import { contactInfo, navigationLinks } from '../data/portfolioData';
+import { BrandLogo } from './BrandLogo';
+import { SocialLinks } from './SocialLinks';
 
 interface FooterProps {
   onOpenEmail?: () => void;
@@ -22,14 +23,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEmail }) => {
           
           {/* Brand & Intro */}
           <div className="md:col-span-5 space-y-4">
-            <div className="flex items-center space-x-2.5">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-sky-500 to-indigo-600 p-[1.5px]">
-                <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
-                  <span className="font-mono font-bold text-xs text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-300">
-                    VR
-                  </span>
-                </div>
-              </div>
+            <div className="flex items-center space-x-3">
+              <BrandLogo className="w-9 h-9 drop-shadow-md" />
               <span className="text-base font-bold text-white tracking-tight">
                 Vasu Rachhadiya
               </span>
@@ -39,57 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEmail }) => {
               Aspiring Software Developer passionate about building modern web applications, AI-assisted engineering, and clean, resilient digital solutions.
             </p>
 
-            <div className="flex items-center space-x-2.5 pt-2">
-              <a
-                href={contactInfo.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition-colors"
-                aria-label="GitHub Profile"
-              >
-                <GithubIcon className="w-4 h-4" />
-              </a>
-              <a
-                href={contactInfo.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-sky-400 hover:border-slate-700 transition-colors"
-                aria-label="LinkedIn Profile"
-              >
-                <LinkedinIcon className="w-4 h-4" />
-              </a>
-              {contactInfo.instagram && (
-                <a
-                  href={contactInfo.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-pink-400 hover:border-slate-700 transition-colors"
-                  aria-label="Instagram Profile"
-                >
-                  <InstagramIcon className="w-4 h-4" />
-                </a>
-              )}
-              {contactInfo.facebook && (
-                <a
-                  href={contactInfo.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-blue-500 hover:border-slate-700 transition-colors"
-                  aria-label="Facebook Profile"
-                >
-                  <FacebookIcon className="w-4 h-4" />
-                </a>
-              )}
-              <button
-                type="button"
-                onClick={onOpenEmail}
-                className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-emerald-400 hover:border-emerald-500/40 transition-colors"
-                aria-label="Email Vasu"
-                title="Email: vasurachhadiya@gmail.com"
-              >
-                <Mail className="w-4 h-4" />
-              </button>
-            </div>
+            <SocialLinks onOpenEmail={onOpenEmail} size="sm" className="pt-2" />
           </div>
 
           {/* Quick Navigation */}

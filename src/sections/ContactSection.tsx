@@ -11,9 +11,9 @@ import {
   MessageSquare,
   Sparkles
 } from 'lucide-react';
-import { GithubIcon, LinkedinIcon, InstagramIcon, FacebookIcon } from '../components/icons/SocialIcons';
 import confetti from 'canvas-confetti';
 import { contactInfo } from '../data/portfolioData';
+import { SocialLinks } from '../components/SocialLinks';
 
 interface FormState {
   name: string;
@@ -279,48 +279,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenEmail }) =
                   <p className="text-xs font-mono font-semibold uppercase text-slate-400 mb-3">
                     Developer Presence
                   </p>
-                  <div className="grid grid-cols-2 gap-3">
-                    <a
-                      href={contactInfo.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center space-x-2.5 p-3 rounded-xl bg-slate-950/70 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-white transition-colors"
-                    >
-                      <GithubIcon className="w-4 h-4 text-white" />
-                      <span className="text-xs font-medium font-mono">GitHub</span>
-                    </a>
-                    <a
-                      href={contactInfo.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center space-x-2.5 p-3 rounded-xl bg-slate-950/70 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-sky-400 transition-colors"
-                    >
-                      <LinkedinIcon className="w-4 h-4 text-sky-400" />
-                      <span className="text-xs font-medium font-mono">LinkedIn</span>
-                    </a>
-                    {contactInfo.instagram && (
-                      <a
-                        href={contactInfo.instagram}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center space-x-2.5 p-3 rounded-xl bg-slate-950/70 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-pink-400 transition-colors"
-                      >
-                        <InstagramIcon className="w-4 h-4 text-pink-400" />
-                        <span className="text-xs font-medium font-mono">Instagram</span>
-                      </a>
-                    )}
-                    {contactInfo.facebook && (
-                      <a
-                        href={contactInfo.facebook}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center space-x-2.5 p-3 rounded-xl bg-slate-950/70 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-blue-500 transition-colors"
-                      >
-                        <FacebookIcon className="w-4 h-4 text-blue-500" />
-                        <span className="text-xs font-medium font-mono">Facebook</span>
-                      </a>
-                    )}
-                  </div>
+                  <SocialLinks onOpenEmail={onOpenEmail} size="lg" className="flex-wrap pt-1" />
                 </div>
               </div>
 
