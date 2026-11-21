@@ -76,7 +76,7 @@ export const SocialLinks: React.FC<SocialLinksProps> = ({
       {/* Direct Email Modal / Fallback button */}
       <button
         type="button"
-        onClick={onOpenEmail || (() => window.location.href = `mailto:${contactInfo.email}`)}
+        onClick={onOpenEmail || (() => window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(contactInfo.email)}`, '_blank'))}
         className={`flex items-center justify-center bg-slate-900/90 border border-slate-800 text-slate-400 backdrop-blur-md transition-all duration-200 hover:scale-105 hover:shadow-lg hover:border-emerald-500/60 hover:text-emerald-400 hover:bg-emerald-500/10 shadow-emerald-500/20 ${sizeClasses}`}
         aria-label="Send Email to Vasu Rachhadiya"
         title="Email: vasurachhadiya@gmail.com"

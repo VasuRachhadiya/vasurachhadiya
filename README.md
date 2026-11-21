@@ -42,7 +42,7 @@
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" width="46" height="46" alt="Facebook" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:vasurachhadiya@gmail.com">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vasurachhadiya@gmail.com" target="_blank" rel="noopener noreferrer">
     <img src="https://skillicons.dev/icons?i=gmail" width="46" height="46" alt="Gmail" />
   </a>
 
