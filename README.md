@@ -31,23 +31,6 @@
 
 ---
 
-### ⚡ Developer Snapshot
-
-```javascript
-const vasu = {
-  name: "Vasu Rachhadiya",
-  role: "Software Developer | AI-Assisted Engineering",
-  location: "Rajkot, Gujarat, India",
-  education: "MCA @ Atmiya University | BCA Graduate",
-  focus: ["Full-Stack Web Development", "Android Mobile (Kotlin)"],
-  methodology: "AI-Assisted Prototyping (Antigravity & LLMs) + Clean Architecture",
-  mindset: "Curious, disciplined, continuous learner & pragmatic problem solver",
-  status: "Open to Software Engineering Opportunities"
-};
-```
-
----
-
 ### 🛠️ Tech Stack & Ecosystem
 
 <div align="center">
