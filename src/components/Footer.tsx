@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowUp, Mail, Heart, Code2 } from 'lucide-react';
-import { GithubIcon, LinkedinIcon } from './icons/SocialIcons';
+import { GithubIcon, LinkedinIcon, InstagramIcon, FacebookIcon } from './icons/SocialIcons';
 import { contactInfo, navigationLinks } from '../data/portfolioData';
 
 interface FooterProps {
@@ -36,10 +36,10 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEmail }) => {
             </div>
 
             <p className="text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
-              Aspiring Software Developer & MCA student passionate about building modern web applications, AI-assisted engineering, and clean, resilient digital solutions.
+              Aspiring Software Developer & BCA Graduate passionate about building modern web applications, AI-assisted engineering, and clean, resilient digital solutions.
             </p>
 
-            <div className="flex items-center space-x-3 pt-2">
+            <div className="flex items-center space-x-2.5 pt-2">
               <a
                 href={contactInfo.github}
                 target="_blank"
@@ -58,6 +58,28 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEmail }) => {
               >
                 <LinkedinIcon className="w-4 h-4" />
               </a>
+              {contactInfo.instagram && (
+                <a
+                  href={contactInfo.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-pink-400 hover:border-slate-700 transition-colors"
+                  aria-label="Instagram Profile"
+                >
+                  <InstagramIcon className="w-4 h-4" />
+                </a>
+              )}
+              {contactInfo.facebook && (
+                <a
+                  href={contactInfo.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-blue-500 hover:border-slate-700 transition-colors"
+                  aria-label="Facebook Profile"
+                >
+                  <FacebookIcon className="w-4 h-4" />
+                </a>
+              )}
               <button
                 type="button"
                 onClick={onOpenEmail}

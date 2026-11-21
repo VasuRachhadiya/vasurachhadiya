@@ -43,7 +43,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
       category: 'Navigation',
       id: 'about',
       title: 'About Vasu',
-      description: 'Background, MCA education, and technical philosophy',
+      description: 'Background, BCA education, and technical philosophy',
       icon: <User className="w-4 h-4 text-sky-400" />,
       action: () => {
         document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
@@ -76,7 +76,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
       category: 'Navigation',
       id: 'education',
       title: 'Education Timeline',
-      description: 'MCA Atmiya University (84.5%), BCA (77.4%), Tapovan',
+      description: 'BCA Saurashtra University (77.4%), Higher Secondary (82.0%), Secondary (81.5%)',
       icon: <GraduationCap className="w-4 h-4 text-purple-400" />,
       action: () => {
         document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' });

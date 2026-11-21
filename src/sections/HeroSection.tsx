@@ -31,7 +31,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEmail }) => {
     "Software Developer",
     "AI-Assisted Engineer",
     "Creative Problem Solver",
-    "MCA Scholar @ Atmiya"
+    "BCA Graduate with Distinction"
   ];
   const [roleIndex, setRoleIndex] = useState(0);
   const [displayedRole, setDisplayedRole] = useState('');
@@ -65,7 +65,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEmail }) => {
     setTimeout(() => {
       setTerminalOutput(prev => [
         ...prev,
-        `✓ Academic Distinction: MCA Sem 1 (84.56%) | Sem 2 (82.33%)`,
+        `✓ Academic Background: BCA Graduate with Distinction (77.42%)`,
         `✓ Projects loaded: PrimeMart (Web) & RecipeHub (Android)`,
         `✓ Ready for new challenges in Software Engineering!`
       ]);
@@ -258,19 +258,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEmail }) => {
                     </p>
                     <p className="pl-8">
                       <span className="text-sky-300">degree</span>:{' '}
-                      <span className="text-emerald-300">"MCA (In Progress)"</span>,
+                      <span className="text-emerald-300">"BCA (Completed)"</span>,
                     </p>
                     <p className="pl-8">
-                      <span className="text-sky-300">university</span>:{' '}
-                      <span className="text-emerald-300">"Atmiya University, Rajkot"</span>,
+                      <span className="text-sky-300">institution</span>:{' '}
+                      <span className="text-emerald-300">"T. N. Rao College, Rajkot"</span>,
                     </p>
                     <p className="pl-8">
-                      <span className="text-sky-300">sem1_score</span>:{' '}
-                      <span className="text-amber-300">"84.56%"</span>,
-                    </p>
-                    <p className="pl-8">
-                      <span className="text-sky-300">sem2_score</span>:{' '}
-                      <span className="text-amber-300">"82.33%"</span>
+                      <span className="text-sky-300">score</span>:{' '}
+                      <span className="text-amber-300">"77.42% (Distinction)"</span>
                     </p>
                     <p className="pl-4">{'}'},</p>
                     <p className="pl-4">

@@ -58,5 +58,7 @@ export interface ContactInfo {
   location: string;
   github: string;
   linkedin: string;
+  instagram?: string;
+  facebook?: string;
   statusMessage: string;
 }

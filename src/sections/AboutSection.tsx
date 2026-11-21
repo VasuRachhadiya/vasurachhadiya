@@ -63,7 +63,7 @@ export const AboutSection: React.FC = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-white">Vasu Rachhadiya</h3>
                   <p className="text-sm font-mono text-sky-400 font-medium">
-                    Software Developer & MCA Student
+                    Software Developer & BCA Graduate
                   </p>
                 </div>
 
@@ -72,18 +72,18 @@ export const AboutSection: React.FC = () => {
                   <div className="flex items-start gap-3 p-3.5 rounded-xl bg-slate-950/60 border border-slate-800/80">
                     <GraduationCap className="w-5 h-5 text-indigo-400 shrink-0 mt-0.5" />
                     <div>
-                      <p className="text-xs font-mono text-slate-400">Master of Computer Applications (MCA)</p>
-                      <p className="text-sm font-semibold text-slate-200">Atmiya University, Rajkot</p>
-                      <p className="text-xs text-indigo-300 font-mono mt-0.5">Currently Pursuing • Sem 1: 84.56% | Sem 2: 82.33%</p>
+                      <p className="text-xs font-mono text-slate-400">Bachelor of Computer Applications (BCA)</p>
+                      <p className="text-sm font-semibold text-slate-200">T. N. Rao College, Saurashtra University</p>
+                      <p className="text-xs text-indigo-300 font-mono mt-0.5">First Class with Distinction • 77.42%</p>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-3 p-3.5 rounded-xl bg-slate-950/60 border border-slate-800/80">
                     <Code className="w-5 h-5 text-sky-400 shrink-0 mt-0.5" />
                     <div>
-                      <p className="text-xs font-mono text-slate-400">Bachelor of Computer Applications (BCA)</p>
-                      <p className="text-sm font-semibold text-slate-200">T. N. Rao College, Rajkot</p>
-                      <p className="text-xs text-sky-300 font-mono mt-0.5">Saurashtra University • 77.42%</p>
+                      <p className="text-xs font-mono text-slate-400">Core Engineering Discipline</p>
+                      <p className="text-sm font-semibold text-slate-200">Full-Stack Web & Android Mobile</p>
+                      <p className="text-xs text-sky-300 font-mono mt-0.5">React • TypeScript • Kotlin • Clean Architecture</p>
                     </div>
                   </div>
 

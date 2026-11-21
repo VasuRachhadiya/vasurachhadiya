@@ -8,20 +8,22 @@ export const contactInfo: ContactInfo = {
   location: "Rajkot, Gujarat, India",
   github: "https://github.com/VasuRachhadiya",
   linkedin: "https://www.linkedin.com/in/vasurachhadiya",
+  instagram: "https://www.instagram.com/vasu_rachhadiya/",
+  facebook: "https://www.facebook.com/rachhadiya.vasu",
   statusMessage: "Available for Software Engineering Opportunities"
 };
 
 export const bioData = {
-  headline: "Aspiring Software Developer & MCA Student",
-  summary: "I'm an aspiring Software Developer and MCA student passionate about building modern web applications, exploring new technologies, and turning ideas into practical digital experiences.",
+  headline: "Aspiring Software Developer & Problem Solver",
+  summary: "I'm an aspiring Software Developer passionate about building modern web applications, exploring new technologies, and turning ideas into practical digital experiences.",
   detailedBio: [
-    "Currently pursuing my Master of Computer Applications (MCA) at Atmiya University with consistent academic distinction (84.56% Sem 1, 82.33% Sem 2). My core foundation lies in programming logic, clean web development, database modeling, and structured problem-solving.",
+    "Graduated with a Bachelor of Computer Applications (BCA) with First Class Distinction (77.42%). My core foundation lies in programming logic, clean web development, database modeling, and structured problem-solving.",
     "I actively leverage modern AI-assisted development tools (such as Antigravity and ChatGPT) to accelerate prototyping, comprehend complex codebases rapidly, debug with agility, and make thoughtful iterative enhancements.",
     "I believe in continuous learning, disciplined engineering habits, and delivering well-crafted digital experiences with clean architecture and responsive user interfaces."
   ],
   stats: [
-    { label: "MCA Academic Performance", value: "84.5%", highlight: "Atmiya University" },
-    { label: "BCA Graduation Score", value: "77.4%", highlight: "Saurashtra University" },
+    { label: "BCA Graduation Score", value: "77.4%", highlight: "First Class Distinction" },
+    { label: "Secondary (10th/12th)", value: "97.3% / 94.5%", highlight: "Percentile Rank" },
     { label: "Core Foundations", value: "Full-Stack & Mobile", highlight: "Web, Databases, Kotlin" },
     { label: "Approach", value: "AI-Assisted", highlight: "Rapid Prototyping" }
   ]
@@ -148,22 +150,6 @@ export const skillsData: SkillCategory[] = [
 ];
 
 export const educationData: EducationItem[] = [
-  {
-    id: "mca",
-    degree: "Master of Computer Applications (MCA)",
-    institution: "Atmiya University",
-    university: "Rajkot, Gujarat",
-    location: "Rajkot, Gujarat, India",
-    period: "2025 - Present",
-    status: "In Progress",
-    grade: "Sem 1: 84.56% | Sem 2: 82.33%",
-    details: [
-      "Secured outstanding academic distinction across both initial semesters (84.56% and 82.33%).",
-      "Coursework highlights: Advanced Database Management Systems, Software Engineering Methodologies, Object-Oriented System Architecture, and Enterprise Web Development.",
-      "Engaged in hands-on practical laboratories, algorithm design, and applied system design projects."
-    ],
-    icon: "GraduationCap"
-  },
   {
     id: "bca",
     degree: "Bachelor of Computer Applications (BCA)",
