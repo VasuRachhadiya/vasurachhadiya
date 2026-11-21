@@ -174,8 +174,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEmail }) => {
                 <button
                   onClick={() => setActiveTab('profile')}
                   className={`flex items-center space-x-2 px-3 py-1.5 border-t-2 transition-colors ${activeTab === 'profile'
-                      ? 'border-sky-400 bg-slate-900 text-sky-300 font-semibold'
-                      : 'border-transparent text-slate-400 hover:text-slate-200'
+                    ? 'border-sky-400 bg-slate-900 text-sky-300 font-semibold'
+                    : 'border-transparent text-slate-400 hover:text-slate-200'
                     }`}
                 >
                   <Code2 className="w-3.5 h-3.5 text-sky-400" />
@@ -184,8 +184,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEmail }) => {
                 <button
                   onClick={() => setActiveTab('skills')}
                   className={`flex items-center space-x-2 px-3 py-1.5 border-t-2 transition-colors ${activeTab === 'skills'
-                      ? 'border-indigo-400 bg-slate-900 text-indigo-300 font-semibold'
-                      : 'border-transparent text-slate-400 hover:text-slate-200'
+                    ? 'border-indigo-400 bg-slate-900 text-indigo-300 font-semibold'
+                    : 'border-transparent text-slate-400 hover:text-slate-200'
                     }`}
                 >
                   <Cpu className="w-3.5 h-3.5 text-indigo-400" />
@@ -194,8 +194,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEmail }) => {
                 <button
                   onClick={() => setActiveTab('terminal')}
                   className={`flex items-center space-x-2 px-3 py-1.5 border-t-2 transition-colors ${activeTab === 'terminal'
-                      ? 'border-emerald-400 bg-slate-900 text-emerald-300 font-semibold'
-                      : 'border-transparent text-slate-400 hover:text-slate-200'
+                    ? 'border-emerald-400 bg-slate-900 text-emerald-300 font-semibold'
+                    : 'border-transparent text-slate-400 hover:text-slate-200'
                     }`}
                 >
                   <Terminal className="w-3.5 h-3.5 text-emerald-400" />
