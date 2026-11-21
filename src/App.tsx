@@ -38,11 +38,10 @@ export default function App() {
   }, []);
 
   return (
-    <div className={`relative min-h-screen transition-colors duration-300 overflow-x-hidden ${
-      theme === 'dark' 
-        ? 'bg-slate-950 text-slate-100 selection:bg-sky-500/30 selection:text-sky-200' 
+    <div className={`relative min-h-screen transition-colors duration-300 overflow-x-hidden ${theme === 'dark'
+        ? 'bg-slate-950 text-slate-100 selection:bg-sky-500/30 selection:text-sky-200'
         : 'bg-slate-50 text-slate-900 selection:bg-sky-500/30 selection:text-sky-800'
-    }`}>
+      }`}>
       {/* Sleek Custom Cursor on Desktop */}
       <CustomCursor />
 
@@ -59,8 +58,8 @@ export default function App() {
 
       {/* Page Sections */}
       <main className="relative z-10 flex flex-col">
-        <HeroSection 
-          onOpenResume={() => setIsResumeModalOpen(true)} 
+        <HeroSection
+          onOpenResume={() => setIsResumeModalOpen(true)}
           onOpenEmail={() => setIsEmailModalOpen(true)}
         />
         <AboutSection />
