@@ -17,6 +17,9 @@
   <a href="https://www.linkedin.com/in/vasurachhadiya" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  <a href="https://www.instagram.com/vasu_rachhadiya/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-vasu__rachhadiya-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
   <a href="mailto:vasurachhadiya@gmail.com">
     <img src="https://img.shields.io/badge/Email-vasurachhadiya%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
@@ -67,6 +70,10 @@ const vasu = {
   &nbsp;
   <a href="https://www.linkedin.com/in/vasurachhadiya">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://www.instagram.com/vasu_rachhadiya/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   &nbsp;
   <a href="mailto:vasurachhadiya@gmail.com">
