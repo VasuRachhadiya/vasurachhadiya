@@ -12,7 +12,6 @@ import { HeroSection } from './sections/HeroSection';
 import { AboutSection } from './sections/AboutSection';
 import { SkillsSection } from './sections/SkillsSection';
 import { ProjectsSection } from './sections/ProjectsSection';
-import { EducationSection } from './sections/EducationSection';
 import { CertificationsSection } from './sections/CertificationsSection';
 import { ContactSection } from './sections/ContactSection';
 import { Project } from './types';
@@ -65,7 +64,6 @@ export default function App() {
         <AboutSection />
         <SkillsSection />
         <ProjectsSection onSelectProject={project => setSelectedProject(project)} />
-        <EducationSection />
         <CertificationsSection />
         <ContactSection onOpenEmail={() => setIsEmailModalOpen(true)} />
       </main>

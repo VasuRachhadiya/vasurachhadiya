@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   User,
-  GraduationCap,
   MapPin,
   Code,
   Bot,
@@ -63,18 +62,18 @@ export const AboutSection: React.FC = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-white">Vasu Rachhadiya</h3>
                   <p className="text-sm font-mono text-sky-400 font-medium">
-                    Software Developer & BCA Graduate
+                    Software Developer & Problem Solver
                   </p>
                 </div>
 
                 {/* Profile quick highlights */}
                 <div className="space-y-3 pt-2">
                   <div className="flex items-start gap-3 p-3.5 rounded-xl bg-slate-950/60 border border-slate-800/80">
-                    <GraduationCap className="w-5 h-5 text-indigo-400 shrink-0 mt-0.5" />
+                    <Sparkles className="w-5 h-5 text-indigo-400 shrink-0 mt-0.5" />
                     <div>
-                      <p className="text-xs font-mono text-slate-400">Bachelor of Computer Applications (BCA)</p>
-                      <p className="text-sm font-semibold text-slate-200">T. N. Rao College, Saurashtra University</p>
-                      <p className="text-xs text-indigo-300 font-mono mt-0.5">First Class with Distinction • 77.42%</p>
+                      <p className="text-xs font-mono text-slate-400">Technical Foundation</p>
+                      <p className="text-sm font-semibold text-slate-200">Computer Applications & Systems</p>
+                      <p className="text-xs text-indigo-300 font-mono mt-0.5">Algorithms • Data Structures • RDBMS • Clean Architecture</p>
                     </div>
                   </div>
 

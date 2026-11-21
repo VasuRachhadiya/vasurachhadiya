@@ -33,7 +33,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       setIsScrolled(window.scrollY > 20);
 
       // Simple active section detector
-      const sections = ['about', 'skills', 'projects', 'education', 'certifications', 'contact'];
+      const sections = ['about', 'skills', 'projects', 'certifications', 'contact'];
       for (const section of sections) {
         const el = document.getElementById(section);
         if (el) {

@@ -17,15 +17,15 @@ export const bioData = {
   headline: "Aspiring Software Developer & Problem Solver",
   summary: "I'm an aspiring Software Developer passionate about building modern web applications, exploring new technologies, and turning ideas into practical digital experiences.",
   detailedBio: [
-    "Graduated with a Bachelor of Computer Applications (BCA) with First Class Distinction (77.42%). My core foundation lies in programming logic, clean web development, database modeling, and structured problem-solving.",
+    "I am an aspiring Software Developer with a solid foundation in programming logic, clean web development, database modeling, and structured problem-solving.",
     "I actively leverage modern AI-assisted development tools (such as Antigravity and ChatGPT) to accelerate prototyping, comprehend complex codebases rapidly, debug with agility, and make thoughtful iterative enhancements.",
     "I believe in continuous learning, disciplined engineering habits, and delivering well-crafted digital experiences with clean architecture and responsive user interfaces."
   ],
   stats: [
-    { label: "BCA Graduation Score", value: "77.4%", highlight: "First Class Distinction" },
-    { label: "Secondary (10th/12th)", value: "97.3% / 94.5%", highlight: "Percentile Rank" },
     { label: "Core Foundations", value: "Full-Stack & Mobile", highlight: "Web, Databases, Kotlin" },
-    { label: "Approach", value: "AI-Assisted", highlight: "Rapid Prototyping" }
+    { label: "Engineering Approach", value: "AI-Assisted", highlight: "Rapid Prototyping & Agile" },
+    { label: "Code Craft", value: "Modern & Clean", highlight: "TypeScript & React" },
+    { label: "Availability", value: "Open to Opportunities", highlight: "Software Development" }
   ]
 };
 
@@ -149,52 +149,7 @@ export const skillsData: SkillCategory[] = [
   }
 ];
 
-export const educationData: EducationItem[] = [
-  {
-    id: "bca",
-    degree: "Bachelor of Computer Applications (BCA)",
-    institution: "T. N. Rao College",
-    university: "Saurashtra University",
-    location: "Rajkot, Gujarat, India",
-    period: "2022 - 2025",
-    status: "Completed",
-    grade: "77.42% (First Class with Distinction)",
-    details: [
-      "Graduated with 77.42% overall score, establishing a strong foundation in computational principles.",
-      "Comprehensive curriculum covering Programming in C, Java, Data Structures, Relational Database Systems (RDBMS), Operating Systems, and Web Foundations.",
-      "Developed project prototypes including web applications and relational database integrations."
-    ],
-    icon: "Award"
-  },
-  {
-    id: "hsc",
-    degree: "Higher Secondary Certificate (12th Standard)",
-    institution: "Tapovan School",
-    location: "Rajkot, Gujarat, India",
-    period: "2021 - 2022",
-    status: "Completed",
-    grade: "82.00% | Percentile: 94.55",
-    details: [
-      "Achieved a 94.55 percentile rank with an overall aggregate of 82.00%.",
-      "Focused on analytical thinking, mathematics, problem-solving, and foundational logic."
-    ],
-    icon: "BookOpen"
-  },
-  {
-    id: "ssc",
-    degree: "Secondary School Certificate (10th Standard)",
-    institution: "Tapovan School",
-    location: "Rajkot, Gujarat, India",
-    period: "2019 - 2020",
-    status: "Completed",
-    grade: "81.50% | Percentile: 97.36",
-    details: [
-      "Secured a top 97.36 percentile rank with 81.50% aggregate score.",
-      "Recognized for academic consistency, mathematical aptitude, and scientific inquiries."
-    ],
-    icon: "Compass"
-  }
-];
+export const educationData: EducationItem[] = [];
 
 export const certificationsData: Certification[] = [
   {
@@ -230,7 +185,6 @@ export const navigationLinks = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
-  { name: "Education", href: "#education" },
   { name: "Certifications", href: "#certifications" },
   { name: "Contact", href: "#contact" }
 ];

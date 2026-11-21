@@ -31,7 +31,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEmail }) => {
     "Software Developer",
     "AI-Assisted Engineer",
     "Creative Problem Solver",
-    "BCA Graduate with Distinction"
+    "Full-Stack Web & Android"
   ];
   const [roleIndex, setRoleIndex] = useState(0);
   const [displayedRole, setDisplayedRole] = useState('');
@@ -65,7 +65,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEmail }) => {
     setTimeout(() => {
       setTerminalOutput(prev => [
         ...prev,
-        `✓ Academic Background: BCA Graduate with Distinction (77.42%)`,
+        `✓ Core Focus: React, TypeScript, Kotlin & Android`,
         `✓ Projects loaded: PrimeMart (Web) & RecipeHub (Android)`,
         `✓ Ready for new challenges in Software Engineering!`
       ]);
@@ -253,22 +253,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEmail }) => {
                       <span className="text-emerald-300">"Software Developer"</span>,
                     </p>
                     <p className="pl-4">
-                      <span className="text-sky-300">education</span>:{' '}
-                      <span className="text-slate-300">{'{'}</span>
+                      <span className="text-sky-300">focus</span>:{' '}
+                      <span className="text-emerald-300">"Full-Stack Web & Android"</span>,
                     </p>
-                    <p className="pl-8">
-                      <span className="text-sky-300">degree</span>:{' '}
-                      <span className="text-emerald-300">"BCA (Completed)"</span>,
+                    <p className="pl-4">
+                      <span className="text-sky-300">stack</span>:{' '}
+                      <span className="text-amber-300">["React", "TypeScript", "Kotlin", "Tailwind"]</span>,
                     </p>
-                    <p className="pl-8">
-                      <span className="text-sky-300">institution</span>:{' '}
-                      <span className="text-emerald-300">"T. N. Rao College, Rajkot"</span>,
-                    </p>
-                    <p className="pl-8">
-                      <span className="text-sky-300">score</span>:{' '}
-                      <span className="text-amber-300">"77.42% (Distinction)"</span>
-                    </p>
-                    <p className="pl-4">{'}'},</p>
                     <p className="pl-4">
                       <span className="text-sky-300">mindset</span>:{' '}
                       <span className="text-emerald-300">"AI-Assisted Iteration & Clean Code"</span>,

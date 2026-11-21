@@ -36,7 +36,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEmail }) => {
             </div>
 
             <p className="text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
-              Aspiring Software Developer & BCA Graduate passionate about building modern web applications, AI-assisted engineering, and clean, resilient digital solutions.
+              Aspiring Software Developer passionate about building modern web applications, AI-assisted engineering, and clean, resilient digital solutions.
             </p>
 
             <div className="flex items-center space-x-2.5 pt-2">

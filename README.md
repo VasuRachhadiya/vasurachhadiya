@@ -1,11 +1,11 @@
 <div align="center">
 
   <!-- Dynamic Aesthetic Wave Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:030712,30:0f172a,70:1e1b4b,100:38bdf8&height=220&section=header&text=Vasu%20Rachhadiya&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%E2%80%A2%20AI-Assisted%20Engineering%20%E2%80%A2%20BCA%20Graduate&descSize=16&descAlignY=60&descColor=94a3b8" width="100%" alt="Vasu Rachhadiya Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:030712,30:0f172a,70:1e1b4b,100:38bdf8&height=220&section=header&text=Vasu%20Rachhadiya&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%E2%80%A2%20Full-Stack%20Web%20%E2%80%A2%20Android%20Mobile%20%E2%80%A2%20AI%20Engineering&descSize=16&descAlignY=60&descColor=94a3b8" width="100%" alt="Vasu Rachhadiya Header" />
 
   <!-- Animated Typing Subtitle -->
   <a href="https://vasurachhadiya.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=620&lines=Aspiring+Software+Developer+%26+Problem+Solver;Building+Modern+Full-Stack+Web+%26+Android+Apps;Accelerated+by+AI-Assisted+Prototyping;BCA+Graduate+with+Distinction" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=620&lines=Aspiring+Software+Developer+%26+Problem+Solver;Building+Modern+Full-Stack+Web+%26+Android+Apps;Accelerated+by+AI-Assisted+Prototyping;Clean+Architecture+%26+Creative+Code" alt="Typing SVG" />
   </a>
 
   <br/><br/>

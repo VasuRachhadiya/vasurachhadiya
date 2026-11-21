@@ -6,7 +6,6 @@ import {
   Mail,
   ExternalLink,
   Code2,
-  GraduationCap,
   Award,
   User,
   Moon,
@@ -43,7 +42,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
       category: 'Navigation',
       id: 'about',
       title: 'About Vasu',
-      description: 'Background, BCA education, and technical philosophy',
+      description: 'Background, developer mindset, and engineering philosophy',
       icon: <User className="w-4 h-4 text-sky-400" />,
       action: () => {
         document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
@@ -69,17 +68,6 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
       icon: <Code2 className="w-4 h-4 text-cyan-400" />,
       action: () => {
         document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
-        onClose();
-      }
-    },
-    {
-      category: 'Navigation',
-      id: 'education',
-      title: 'Education Timeline',
-      description: 'BCA Saurashtra University (77.4%), Higher Secondary (82.0%), Secondary (81.5%)',
-      icon: <GraduationCap className="w-4 h-4 text-purple-400" />,
-      action: () => {
-        document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' });
         onClose();
       }
     },
