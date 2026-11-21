@@ -284,8 +284,8 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
                   if (selectedIndex !== index) setSelectedIndex(index);
                 }}
                 className={`w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-left transition-colors ${selectedIndex === index
-                    ? 'bg-sky-500/15 border border-sky-500/30 text-white dark:text-white'
-                    : 'text-slate-300 hover:bg-slate-800/60'
+                  ? 'bg-sky-500/15 border border-sky-500/30 text-white dark:text-white'
+                  : 'text-slate-300 hover:bg-slate-800/60'
                   }`}
               >
                 <div className="flex items-center space-x-3 overflow-hidden">

@@ -1,13 +1,13 @@
 import React from 'react';
-import { 
-  User, 
-  GraduationCap, 
-  MapPin, 
-  Code, 
-  Bot, 
-  BookOpen, 
-  CheckCircle, 
-  Zap, 
+import {
+  User,
+  GraduationCap,
+  MapPin,
+  Code,
+  Bot,
+  BookOpen,
+  CheckCircle,
+  Zap,
   Sparkles,
   ArrowUpRight
 } from 'lucide-react';
@@ -17,7 +17,7 @@ export const AboutSection: React.FC = () => {
   return (
     <section id="about" className="py-24 relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="flex flex-col items-center text-center mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-mono mb-3">
@@ -34,11 +34,11 @@ export const AboutSection: React.FC = () => {
 
         {/* Split Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
-          
+
           {/* Left: Profile Showcase Card */}
           <div className="lg:col-span-5 flex flex-col">
             <div className="relative rounded-3xl bg-slate-900/80 border border-slate-800 p-8 flex flex-col justify-between h-full backdrop-blur-xl overflow-hidden group hover:border-slate-700 transition-all">
-              
+
               {/* Background ambient glow */}
               <div className="absolute top-0 right-0 w-48 h-48 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
               <div className="absolute bottom-0 left-0 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
@@ -110,7 +110,7 @@ export const AboutSection: React.FC = () => {
 
           {/* Right: Detailed Story & Philosophy */}
           <div className="lg:col-span-7 flex flex-col justify-between space-y-6">
-            
+
             {/* Story Card */}
             <div className="rounded-3xl bg-slate-900/60 border border-slate-800/80 p-8 backdrop-blur-xl">
               <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
@@ -129,7 +129,7 @@ export const AboutSection: React.FC = () => {
 
             {/* Approach & Mindset Pillars */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              
+
               <div className="p-5 rounded-2xl bg-slate-900/40 border border-slate-800/80 hover:border-slate-700 transition-colors">
                 <div className="w-10 h-10 rounded-xl bg-sky-500/10 border border-sky-500/20 text-sky-400 flex items-center justify-center mb-3">
                   <CheckCircle className="w-5 h-5" />

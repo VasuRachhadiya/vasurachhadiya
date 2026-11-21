@@ -27,11 +27,7 @@
 
   <!-- Social Media & Profiles (Pure Icon Logos) -->
   <a href="https://vasurachhadiya.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="https://skillicons.dev/icons?i=vercel" width="46" height="46" alt="Portfolio" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/VasuRachhadiya" target="_blank" rel="noopener noreferrer">
-    <img src="https://skillicons.dev/icons?i=github" width="46" height="46" alt="GitHub" />
+    <img src="https://raw.githubusercontent.com/VasuRachhadiya/vasurachhadiya/main/public/favicon.svg" width="46" height="46" alt="Portfolio Website" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/vasurachhadiya" target="_blank" rel="noopener noreferrer">
@@ -43,7 +39,7 @@
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.facebook.com/rachhadiya.vasu" target="_blank" rel="noopener noreferrer">
-    <img src="https://skillicons.dev/icons?i=facebook" width="46" height="46" alt="Facebook" />
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" width="46" height="46" alt="Facebook" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:vasurachhadiya@gmail.com">
