@@ -19,6 +19,19 @@
           "value": "inline; filename=\"Vasu_Rachhadiya_Resume.pdf\""
         }
       ]
+    },
+    {
+      "source": "/Vasu_SD_Resume.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline; filename=\"Vasu_SD_Resume.pdf\""
+        }
+      ]
     }
   ]
 }
