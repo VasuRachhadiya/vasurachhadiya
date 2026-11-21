@@ -56,17 +56,6 @@ const vasu = {
   </a>
 </div>
 
-<br/>
-
-| Category | Technologies & Tools |
-| :--- | :--- |
-| **Programming Languages** | `Java` • `Python` • `C` • `JavaScript (ES6+)` • `TypeScript` • `Kotlin` |
-| **Web & Frontend** | `React` • `HTML5` • `CSS3` • `Tailwind CSS` • `Responsive UI/UX` |
-| **Mobile Development** | `Android SDK` • `Kotlin` • `Material Design` • `Android Studio` |
-| **Databases & Storage** | `MySQL` • `MongoDB` • `SQLite` • `Database Normalization` |
-| **Developer Tools** | `Git` • `GitHub` • `VS Code` • `Vite` • `npm` |
-| **AI-Assisted Engineering** | `Antigravity` • `ChatGPT` • `Prompt Architecture` • `Rapid Prototyping` |
-
 ---
 
 ### 🚀 Featured Engineering Projects
