@@ -29,15 +29,6 @@
 
 </div>
 
----
-
-### 🛠️ Tech Stack & Ecosystem
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,python,c,javascript,typescript,react,html,css,tailwind,kotlin,androidstudio,mysql,mongodb,sqlite,git,github,vscode" alt="Skills" />
-  </a>
-</div>
 
 ---
 
