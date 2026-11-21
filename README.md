@@ -55,21 +55,6 @@ const vasu = {
 
 ---
 
-### 📊 GitHub Activity & Metrics
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VasuRachhadiya&theme=tokyonight&hide_border=true&border_radius=12&background=0b1120&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=VasuRachhadiya&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&background=0b1120&title_color=38bdf8&icon_color=818cf8&text_color=94a3b8" alt="GitHub Stats" width="49%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VasuRachhadiya&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&background=0b1120&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" width="49%" />
-</div>
-
----
-
 ### 📬 Connect With Me
 
 <div align="center">
